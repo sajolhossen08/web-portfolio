@@ -37,3 +37,15 @@ section{
     border-radius: 5px;
     font-size: 100%;
 }
+section{
+    display: block;
+    margin-bottom: 100px;
+}
+.dream-area{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+p{
+    text-align: justify;
+}
