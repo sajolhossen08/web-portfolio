@@ -1,13 +1,19 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(235, 235, 235);
+    margin: 0;
 }
 
 .name-color{
-    color: #35a0f2;
+    color: #7679f8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100px;
 }
 h1{
     font-size: 50px;
+}
+.wel{
+    margin-bottom: -30px;
+    font-size: 33px;
 }
 .half-width{
     width: 40%;
@@ -16,4 +22,18 @@ h1{
 }
 .photo{
     width: 100%;
+}
+.top-banner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.button{
+    background-image: linear-gradient(45deg, #5b5dd0, #47a877);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 100%;
 }
