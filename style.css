@@ -1,0 +1,11 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+
+.name-color{
+    color: #35a0f2;
+}
+h1{
+    font-size: 50px;
+}
