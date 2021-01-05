@@ -8,17 +8,19 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 100px;
 }
+
 h1{
-    font-size: 50px;
+    font-size: 200%;
 }
 .wel{
-    margin-bottom: -30px;
-    font-size: 33px;
+    margin-bottom: -20px;
+    font-size: 30px;
 }
 .half-width{
     width: 40%;
     float: left;
-    padding: 5%;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 .photo{
     width: 100%;
@@ -47,5 +49,27 @@ section{
     background-position: right;
 }
 p{
-    text-align: justify;
+    text-align: justify center;
+}
+
+h3{
+    font-size: 85%;
+}
+.xperience{
+    box-shadow: 10px 10px 40px #808080;
+    border-radius: 5px;
+    height: 60%;
+    background-color: #fff;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.experience{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+footer{
+    text-align: center;
 }
